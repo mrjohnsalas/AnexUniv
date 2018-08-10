@@ -23,3 +23,30 @@ D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\03-Persist
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.csprojResolveAssemblyReference.cache
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.dll
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.pdb
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Persistence.Repository.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Persistence.Repository.pdb
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Common.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\EntityFramework.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Persistence.DatabaseContext.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Persistence.DbContextScope.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\LightInject.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Model.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\EntityFramework.DynamicFilters.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Common.pdb
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Common.dll.config
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Persistence.DatabaseContext.pdb
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Persistence.DbContextScope.pdb
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\EntityFramework.xml
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\Model.pdb
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\bin\Debug\EntityFramework.DynamicFilters.xml
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.csprojAssemblyReference.cache
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.csproj.CoreCompileInputs.cache
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.csproj.CopyComplete
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.dll
+C:\Git\AnexUniv\03-Persistence\Persistence.Repository\obj\Debug\Persistence.Repository.pdb

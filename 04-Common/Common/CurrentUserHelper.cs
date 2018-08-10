@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity;
+﻿using System.Collections.Generic;
+using Microsoft.AspNet.Identity;
 using Newtonsoft.Json;
 using System.Security.Claims;
 using System.Web;
@@ -10,6 +11,20 @@ namespace Common
         public string UserId { get; set; }
         public string UserName { get; set; }
         public string Name { get; set; }
+        public List<string> Roles { get; set; }
+
+        public CurrentUser()
+        {
+            Roles = new List<string>();
+        }
+
+        public bool IsAdmin() => Roles.Contains(RoleNames.Admin);
+
+        public bool IsStudent() => Roles.Contains(RoleNames.Student);
+
+        public bool IsTeacher() => Roles.Contains(RoleNames.Teacher);
+
+        public bool IsUser() => Roles.Contains(RoleNames.User);
     }
 
     public class CurrentUserHelper

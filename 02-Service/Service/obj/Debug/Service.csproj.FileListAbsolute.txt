@@ -41,3 +41,46 @@ D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service\Service\obj\Debug\Service.dll
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service\Service\obj\Debug\Service.pdb
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Service.dll.config
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Service.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Service.pdb
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Common.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\EntityFramework.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\EntityFramework.DynamicFilters.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\LightInject.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Model.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Newtonsoft.Json.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\NLog.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Owin.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Persistence.DatabaseContext.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Persistence.DbContextScope.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Persistence.Repository.dll
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Common.pdb
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Common.dll.config
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Model.pdb
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Persistence.DatabaseContext.pdb
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Persistence.DbContextScope.pdb
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Persistence.Repository.pdb
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\EntityFramework.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\EntityFramework.DynamicFilters.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\Newtonsoft.Json.xml
+C:\Git\AnexUniv\02-Service\Service\bin\Debug\NLog.xml
+C:\Git\AnexUniv\02-Service\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Git\AnexUniv\02-Service\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Git\AnexUniv\02-Service\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Git\AnexUniv\02-Service\Service\obj\Debug\Service.dll
+C:\Git\AnexUniv\02-Service\Service\obj\Debug\Service.pdb
