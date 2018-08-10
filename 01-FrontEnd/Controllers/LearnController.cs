@@ -1,9 +1,11 @@
 ﻿using Common.ProjectHelpers;
 using System.IO;
 using System.Web.Mvc;
+using Common;
 
 namespace FrontEnd.Controllers
 {
+    [Authorize (Roles = RoleNames.Student)]
     public class LearnController : Controller
     {
         [Route("learn/{id}/{lessonId}")]

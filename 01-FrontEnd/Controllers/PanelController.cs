@@ -1,9 +1,14 @@
 ﻿using System.Web.Mvc;
+using Common;
+using Service;
 
 namespace FrontEnd.Controllers
 {
+    [Authorize (Roles = RoleNames.Admin)]
     public class PanelController : Controller
     {
+        private IUserService _userService = DependecyFactory.GetInstance<IUserService>();
+
         // GET: Course
         public ActionResult Index()
         {
@@ -30,5 +35,8 @@ namespace FrontEnd.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public JsonResult GetUsers(AnexGRID grid) => Json(_userService.GetAll(grid));
     }
 }
