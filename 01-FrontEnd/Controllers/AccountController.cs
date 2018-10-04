@@ -194,8 +194,15 @@ namespace FrontEnd.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Name = model.Name, LastName = model.LastName, Credit = Parameters.NewUserCredits };
-                var result = await UserManager.CreateAsync(user, model.Password);
+                var user = new ApplicationUser
+                {
+                    UserName = model.Email,
+                    Email = model.Email,
+                    Name = model.Name,
+                    LastName = model.LastName,
+                    Credit = Parameters.NewUserCredits
+                };
+                var result = await UserManager.CreateWithDefaultRole(user, model.Password);
                 if (result.Succeeded)
                 {
                     //await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);

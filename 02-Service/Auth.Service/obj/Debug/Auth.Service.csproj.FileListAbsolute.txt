@@ -67,7 +67,6 @@ C:\Git\AnexUniv\02-Service\Auth.Service\bin\Debug\Microsoft.Owin.Security.OAuth.
 C:\Git\AnexUniv\02-Service\Auth.Service\bin\Debug\Newtonsoft.Json.xml
 C:\Git\AnexUniv\02-Service\Auth.Service\bin\Debug\NLog.xml
 C:\Git\AnexUniv\02-Service\Auth.Service\bin\Debug\EntityFramework.DynamicFilters.xml
-C:\Git\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csprojAssemblyReference.cache
 C:\Git\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csproj.CoreCompileInputs.cache
 C:\Git\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csproj.CopyComplete
 C:\Git\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.dll

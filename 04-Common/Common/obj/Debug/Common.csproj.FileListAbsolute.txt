@@ -24,7 +24,6 @@ C:\Git\AnexUniv\04-Common\Common\bin\Debug\EntityFramework.xml
 C:\Git\AnexUniv\04-Common\Common\bin\Debug\EntityFramework.SqlServer.xml
 C:\Git\AnexUniv\04-Common\Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Git\AnexUniv\04-Common\Common\bin\Debug\Newtonsoft.Json.xml
-C:\Git\AnexUniv\04-Common\Common\obj\Debug\Common.csprojAssemblyReference.cache
 C:\Git\AnexUniv\04-Common\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Git\AnexUniv\04-Common\Common\obj\Debug\Common.csproj.CopyComplete
 C:\Git\AnexUniv\04-Common\Common\obj\Debug\Common.dll

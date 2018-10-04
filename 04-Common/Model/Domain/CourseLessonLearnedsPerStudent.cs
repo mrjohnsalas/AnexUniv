@@ -20,7 +20,7 @@ namespace Model.Domain
 
         public int LessonId { get; set; }
 
-        public virtual LessonsPerCourse Lesson { get; set; }
+        public LessonsPerCourse Lesson { get; set; }
 
         public string UserId { get; set; }
 

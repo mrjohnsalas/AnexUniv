@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Common.CustomFilters;
 using Model.Helper;
 
@@ -22,6 +18,6 @@ namespace Model.Domain
 
         public bool Deleted { get; set; }
 
-        public virtual ICollection<Course> Courses { get; set; }
+        public ICollection<Course> Courses { get; set; }
     }
 }

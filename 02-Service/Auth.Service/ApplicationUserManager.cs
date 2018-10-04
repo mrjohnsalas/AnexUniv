@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
+using Common;
 
 namespace Auth.Service
 {
@@ -18,8 +19,7 @@ namespace Auth.Service
     {
         private static ILogger logger = LogManager.GetCurrentClassLogger();
 
-        public ApplicationUserManager(IUserStore<ApplicationUser> store)
-            : base(store)
+        public ApplicationUserManager(IUserStore<ApplicationUser> store) : base(store)
         {
         }
 
@@ -69,6 +69,36 @@ namespace Auth.Service
                     new DataProtectorTokenProvider<ApplicationUser>(dataProtectionProvider.Create("ASP.NET Identity"));
             }
             return manager;
+        }
+
+        public async Task<IdentityResult> CreateWithDefaultRole(ApplicationUser model, string password)
+        {
+            try
+            {
+                await CreateAsync(model, password);
+
+                using (var ctx = new ApplicationDbContext())
+                {
+                    var userId = ctx.ApplicationUser.Single(x => x.Email.Equals(model.Email)).Id;
+
+                    var roleId = ctx.ApplicationRole.Single(x => x.Name.Equals(RoleNames.User)).Id;
+
+                    ctx.Entry(new ApplicationUserRole
+                    {
+                        UserId = userId,
+                        RoleId = roleId
+                    }).State = EntityState.Added;
+
+                    ctx.SaveChanges();
+                }
+
+                return await Task.FromResult(IdentityResult.Success);
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex.Message);
+                return await Task.FromResult(new IdentityResult(ex.Message));
+            }
         }
 
         public override Task<IdentityResult> AddToRoleAsync(string userId, string roleId)

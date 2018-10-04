@@ -37,17 +37,17 @@ namespace Model.Domain
 
         public int CategoryId { get; set; }
 
-        public virtual Category Category { get; set; }
+        public Category Category { get; set; }
 
-        public virtual ICollection<LessonsPerCourse> Lessons { get; set; }
+        public ICollection<LessonsPerCourse> Lessons { get; set; }
 
         public string AuthorId { get; set; }
 
         [ForeignKey("AuthorId")]
         public ApplicationUser Author { get; set; }
 
-        public virtual ICollection<UsersPerCourse> Users { get; set; }
+        public ICollection<UsersPerCourse> Users { get; set; }
 
-        public virtual ICollection<ReviewsPerCourse> Reviews { get; set; }
+        public ICollection<ReviewsPerCourse> Reviews { get; set; }
     }
 }
